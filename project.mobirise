@@ -1,0 +1,168 @@
+{
+  "settings": {
+    "name": "solcsan-io",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "startm5",
+      "title": "StartM5",
+      "titlePreset": "StartM5",
+      "styling": {
+        "primaryColor": "#9fe870",
+        "secondaryColor": "#ffd7ef",
+        "successColor": "#3a341c",
+        "infoColor": "#320707",
+        "warningColor": "#a0e2e1",
+        "dangerColor": "#ffea64",
+        "mainFont": "Inter Tight",
+        "display1Font": "Inter Tight",
+        "display1Size": 5,
+        "display2Font": "Inter Tight",
+        "display2Size": 4,
+        "display5Font": "Inter Tight",
+        "display5Size": 2,
+        "display7Font": "Inter Tight",
+        "display7Size": 1.4,
+        "display4Font": "Inter Tight",
+        "display4Size": 1.4,
+        "isRoundedImages": true,
+        "isRoundedButtons": true,
+        "isLargeButtons": true,
+        "isGhostButtonBorder": true,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      }
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "6.1.12",
+    "siteFonts": [],
+    "favicon": "@PROJECT_PATH@/assets/images/solscan-favicon.png",
+    "robotsSwitcher": true,
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\nSitemap: https://solcsan-io.github.io/sitemap.xml/",
+    "sitemapSwitcher": true,
+    "siteUrl": "https://solcsan-io.github.io/",
+    "sitemapSwitcherAuto": "on",
+    "mbrsiteDomain": "h8apzf4zmw",
+    "imageResize": false,
+    "usedWebp": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "uniqCompNum": 4,
+    "versionPublish": "6.1.12"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Solscan-Solana Block Explorer | Solscan",
+        "meta_descr": "Solscan is a blockchain explorer and data platform built for the Solana blockchain.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            }
+          },
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image & Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <a href=\"https://solscan.io/\"><img src=\"@PROJECT_PATH@/assets/images/solscan.p1.png\" alt=\"Solscan\"></a>\n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                Unlock your true path!\n            </p>\n        </div>\n    </div>\n</section>",
+          "_cid": "vzUgfmzZVW",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image04-0"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "img": {
+              "object-fit": "contain",
+              "border-radius": "0 !important"
+            }
+          },
+          "_name": "image04",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image03\" group=\"Image & Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"image-block m-auto\">\n        <a href=\"https://solscan.io/\"><img src=\"@PROJECT_PATH@/assets/images/solscan.p2.png\" alt=\"Solscan\"></a>\n        <div mbr-if=\"showText\">\n            <p class=\"mbr-text mt-4 pb-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                Unlock your true path!\n            </p>\n        </div>\n    </div>\n</section>",
+          "_cid": "vzUggh4iZQ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "image04-1"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".card-wrapper": {
+              "background": "@wrapBgColor",
+              "@media (max-width: 767px)": {
+                "padding": "2rem 1.5rem"
+              },
+              "@media (min-width: 768px) and (max-width: 991px)": {
+                "padding": "2.25rem"
+              },
+              "@media (min-width: 992px)": {
+                "padding": "4rem"
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#000000",
+              "text-align": "left"
+            },
+            ".card-title, .card-box": {
+              "text-align": "justify",
+              "color": "#000000"
+            }
+          },
+          "_name": "article07",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article07\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n    <input type=\"range\" inline title=\"Content Width\" name=\"contentWidth\" min=\"8\" max=\"12\" step=\"1\" value=\"10\">\n    <header>Show/Hide</header>\n    <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n    <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n    <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n    <input type=\"color\" title=\"Wrap Bg\" name=\"wrapBgColor\" value=\"#ffffff\">\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n      <input type=\"color\" title=\"Color\" value=\"#edefeb\" selected>\n      <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n    </fieldset>\n    <header condition=\"bg.type === 'video'\">Fallback Image</header>\n    <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n  </mbr-parameters>\n\n  <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-center\">\n      <div class=\"card col-md-12 col-lg-{{contentWidth}}\">\n        <div class=\"card-wrapper\">\n          <h3 class=\"card-title mbr-fonts-style mbr-white mt-3 mb-4\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n            <b>Solscan-<a href=\"https://solscan.io/\" class=\"text-primary\">Solana </a>Block Explorer | <a href=\"https://solscan.io/\" class=\"text-primary\">Solscan</a></b></h3>\n          <div class=\"row card-box align-left\">\n            <div class=\"item features-without-image col-12\">\n              <div class=\"item-wrapper\">\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><b><a href=\"https://solscan.io/\" class=\"text-primary\">Solscan:</a> A Complete Guide to the Solana Blockchain Explorer</b><br><b>Introduction</b></h3>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">As blockchain technology continues to transform the financial and digital landscape, transparency and accessibility have become increasingly important. Blockchain explorers play a vital role in making decentralized networks easier to understand by allowing users to view transactions, wallet activities, token information, and other on-chain data.\n<br>\n<br>One of the most widely used tools in the Solana ecosystem is Solscan, a blockchain explorer designed to provide users with detailed insights into the Solana network. Whether someone is a cryptocurrency beginner, trader, investor, developer, or blockchain researcher, Solscan offers a convenient way to explore and analyze on-chain activities.\n<br>\n<br>By transforming complex blockchain information into an accessible interface, Solscan helps users better understand what is happening across the Solana ecosystem.</p>\n              </div>\n            </div>\n            <div class=\"item features-without-image col-12\">\n              <div class=\"item-wrapper\">\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><b>What Is <a href=\"https://solscan.io/\" class=\"text-primary\">Solscan</a>?</b></h3>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Solscan is a blockchain explorer and data platform built for the Solana blockchain. It allows users to search, view, and analyze publicly available blockchain information, including wallet addresses, transaction histories, token transfers, NFTs, and smart contract interactions.\n<br>\n<br>Similar to how Etherscan serves the Ethereum ecosystem, Solscan provides a searchable interface for exploring activity on Solana.\n<br>\n<br>The platform indexes blockchain data and organizes it into readable information, making it easier for users to investigate transactions and monitor different activities across the network.\n<br>\n<br>Solscan is an independent platform rather than a service operated by the Solana Foundation. It also offers APIs and data analytics tools for developers and organizations that need structured blockchain information.</p>\n              </div>\n            </div>\n            <div class=\"item features-without-image col-12\">\n              <div class=\"item-wrapper\">\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><b>Key Features of Solscan\n</b><div><b>1. Transaction Tracking</b></div></h3>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">One of <a href=\"https://solscan.io/\" class=\"text-primary\">Solscan's </a>most important features is its transaction tracking functionality.\n<br>\n<br>Users can enter a Solana transaction signature into the search bar to examine its details. The transaction page provides information such as:\n<br>\n<br>Transaction status, including successful or failed transactions.\n<br>Transaction signature and block information.\n<br>Timestamp and transaction fees.\n<br>Sending and receiving wallet addresses.\n<br>SOL and SPL token transfers.\n<br>Programs and instructions involved in the transaction.\n<br>This functionality is particularly useful when users want to confirm whether a transfer has been processed or investigate a particular blockchain interaction.</p>\n              </div>\n            </div>\n            <div class=\"item features-without-image col-12\">\n              <div class=\"item-wrapper\">\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><b>2. Wallet Address Analysis</b></h3>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><a href=\"https://solscan.io/\" class=\"text-primary\">Solscan </a>allows users to examine individual Solana wallet addresses without needing access to the wallet itself.\n<br>\n<br>By entering a public wallet address, users can explore information such as:\n<br>\n<br>SOL balance.\n<br>SPL token holdings.\n<br>Transaction history.\n<br>Incoming and outgoing transfers.\n<br>Staking activities.\n<br>DeFi interactions.\n<br>Associated account information.\n<br>This feature can help investors monitor wallet activity, researchers investigate blockchain behavior, and traders study the movements of cryptocurrency assets.\n<br>\n<br>However, wallet information should always be interpreted carefully. A wallet's publicly visible activity does not necessarily reveal the identity or intentions of its owner.<br><br><br></p>\n              </div>\n            </div><div class=\"item features-without-image col-12\">\n              <div class=\"item-wrapper\">\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><b>3. Token Information and Analysis</b></h3>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Another valuable feature of Solscan is its token explorer.\n<br>\n<br>Users can search for a token using its name, symbol, or mint address to access relevant information.\n<br>\n<br>Token pages may display:\n<br>\n<br>Token name and symbol.\n<br>Mint address.\n<br>Total and circulating supply information where available.\n<br>Number of token holders.\n<br>Token transfer history.\n<br>Holder distribution.\n<br>Market and trading information.\n<br>This information is useful when researching newly launched tokens or investigating existing cryptocurrency projects.\n<br>\n<br>It is especially important to verify a token's mint address because different tokens can use identical or similar names and symbols.<br></p>\n              </div>\n            </div><div class=\"item features-without-image col-12\">\n              <div class=\"item-wrapper\">\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><b>4. NFT Exploration</b></h3>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><a href=\"https://solscan.io/\" class=\"text-primary\">Solscan </a>also supports the exploration of non-fungible tokens (NFTs) on Solana.\n<br>\n<br>Users can investigate NFT-related activities, including transfers, collections, minting events, and other blockchain interactions.\n<br>\n<br>This makes Solscan a useful resource for people interested in the Solana NFT ecosystem.\n<br>\n<br>By examining NFT transactions and ownership records, users can gain a better understanding of how digital collectibles move between blockchain addresses.\n<br>\n<br></p>\n              </div>\n            </div><div class=\"item features-without-image col-12\">\n              <div class=\"item-wrapper\">\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><b>5. DeFi Activity Monitoring</b></h3>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Decentralized finance (DeFi) is an important part of the Solana ecosystem.\n<br>\n<br><a href=\"https://solscan.io/\" class=\"text-primary\">Solscan </a>provides tools for exploring interactions with decentralized applications and financial protocols.\n<br>\n<br>Users can investigate activities involving decentralized exchanges, liquidity pools, staking platforms, and other blockchain-based services.\n<br>\n<br>These insights can help traders and researchers understand how assets move through the DeFi ecosystem and identify patterns in on-chain activity.<br></p>\n              </div>\n            </div><div class=\"item features-without-image col-12\">\n              <div class=\"item-wrapper\">\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><b>How to Use Solscan</b></h3>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Using <a href=\"https://solscan.io/\" class=\"text-primary\">Solscan </a>is relatively straightforward, even for people who are new to blockchain technology.\n<br>\n<br>Step 1: Visit the official website\n<br>\n<br>Navigate to https://solscan.io/.\n<br>\n<br>Step 2: Enter a search query\n<br>\n<br>Use the search bar to enter a transaction signature, wallet address, token mint address, NFT, or program address.\n<br>\n<br>Step 3: Review the search results\n<br>\n<br>Solscan will display the relevant blockchain information associated with the search query.\n<br>\n<br>Step 4: Explore transaction or account details\n<br>\n<br>Open the relevant result to examine transaction status, wallet balances, transfers, fees, and other available information.\n<br>\n<br>Step 5: Analyze blockchain activity\n<br>\n<br>Use the information provided to investigate transactions, monitor wallet movements, research tokens, or understand interactions with decentralized applications.\n<br>\n<br></p>\n              </div>\n            </div><div class=\"item features-without-image col-12\">\n              <div class=\"item-wrapper\">\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><b>Benefits of Using Solscan</b></h3>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><a href=\"https://solscan.io/\" class=\"text-primary\">Solscan </a>provides several advantages to individuals and organizations participating in the Solana ecosystem.\n<br>\n<br>Transparency\n<br>Solscan makes publicly available blockchain information easier to access. Users can independently investigate transactions and wallet activities rather than relying entirely on information provided by third parties.\n<br>\n<br>User-Friendly Interface\n<br>Blockchain data can be difficult to understand, particularly for beginners. Solscan organizes technical information into readable sections, helping users navigate the Solana network more easily.\n<br>\n<br>Faster Transaction Verification\n<br>Users can quickly search for transaction signatures and review their processing status. This is helpful when confirming cryptocurrency transfers or investigating failed transactions.\n<br>\n<br>Improved Research Capabilities\n<br>Investors and analysts can use Solscan to investigate token holders, transaction patterns, wallet activity, and DeFi interactions.<br></p>\n              </div>\n            </div><div class=\"item features-without-image col-12\">\n              <div class=\"item-wrapper\">\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><b>Solscan API: Supporting Blockchain Developers</b></h3>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">In addition to its public explorer, Solscan provides API services designed for developers and businesses.\n<br>\n<br>The <a href=\"https://solscan.io/\" class=\"text-primary\">Solscan </a>Pro API offers access to structured blockchain information across several categories, including accounts, tokens, NFTs, transactions, and market data.\n<br>\n<br>Developers can use these services to build:\n<br>\n<br>Cryptocurrency portfolio trackers.\n<br>Wallet monitoring applications.\n<br>Blockchain analytics platforms.\n<br>DeFi research tools.\n<br>Token tracking dashboards.\n<br>Cryptocurrency accounting applications.\n<br>The API can reduce the complexity of retrieving and interpreting blockchain information, allowing developers to focus more on building applications.\n<br>\n<br></p>\n              </div>\n            </div><div class=\"item features-without-image col-12\">\n              <div class=\"item-wrapper\">\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><b>Is Solscan Safe to Use?</b></h3>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><a href=\"https://solscan.io/\" class=\"text-primary\">Solscan </a>is generally useful as a read-only blockchain exploration platform. Users can inspect publicly available blockchain information without connecting a cryptocurrency wallet.\n<br>\n<br>Importantly, Solscan is not a cryptocurrency wallet. It does not store users' private keys or control their digital assets.\n<br>\n<br>However, users should understand several security considerations:\n<br>\n<br>Never share private keys or recovery phrases.\n<br>Verify token mint addresses before interacting with unfamiliar tokens.\n<br>Do not assume that a verified-looking token name guarantees legitimacy.\n<br>Treat wallet labels and analytics as informational rather than absolute proof of identity.\n<br>Remember that blockchain transactions are generally irreversible.\n<br>Solscan helps users investigate blockchain activity, but it does not guarantee that a token, wallet, or decentralized application is legitimate.\n<br>\n<br></p>\n              </div>\n            </div><div class=\"item features-without-image col-12\">\n              <div class=\"item-wrapper\">\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><b><a href=\"https://solscan.io/\" class=\"text-primary\">Solscan </a>vs. Other Blockchain Explorers</b></h3>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Different blockchain explorers serve different networks and provide different types of information.\n<br>\n<br>For example:\n<br>\n<br>Solscan: Focuses on the Solana blockchain.\n<br>Etherscan: Provides blockchain exploration tools for Ethereum.\n<br>BscScan: Focuses on the BNB Smart Chain.\n<br>PolygonScan: Provides blockchain data for Polygon.\n<br>The main distinction is the blockchain each platform supports. Solscan is specifically designed to make Solana transactions, accounts, tokens, and programs accessible.\n<br>\n<br></p>\n              </div>\n            </div><div class=\"item features-without-image col-12\">\n              <div class=\"item-wrapper\">\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><b>The Importance of <a href=\"https://solscan.io/\" class=\"text-primary\">Solscan </a>in the Solana Ecosystem</b></h3>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">As the Solana ecosystem expands, the amount of blockchain information generated by users, developers, decentralized applications, and financial protocols continues to grow.\n<br>\n<br>Tools like Solscan are important because they help make this information accessible and understandable.\n<br>\n<br>For everyday users, the platform provides a way to verify transactions and investigate wallet activity. For investors, it offers useful information for researching tokens and tracking on-chain movements. For developers, its API services provide structured blockchain data that can support more advanced applications.\n<br>\n<br>By improving access to on-chain information, Solscan contributes to transparency and data accessibility throughout the Solana ecosystem.\n<br>\n<br></p>\n              </div>\n            </div><div class=\"item features-without-image col-12\">\n              <div class=\"item-wrapper\">\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><b>Conclusion</b></h3>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><a href=\"https://solscan.io/\" class=\"text-primary\">Solscan </a>is an important blockchain exploration and analytics platform for anyone interested in the Solana network. Its transaction tracking, wallet analysis, token information, NFT exploration, DeFi monitoring, and developer API services make it a valuable resource for both beginners and experienced blockchain participants.\n<br>\n<br>Although it does not replace independent research or security checks, Solscan provides users with the tools needed to investigate public blockchain activity and make more informed decisions.\n<br>\n<br>As blockchain adoption continues to develop, platforms like Solscan will remain valuable for improving transparency, supporting innovation, and making decentralized technology easier to understand.\n<br>\n<br>Official Website: https://solscan.io/\n<br>\n<br></p>\n              </div>\n            </div>\n          </div>\n          <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Start Now</a>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>",
+          "_cid": "vzUglzt3Dd",
+          "_anchor": "article07-2",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
